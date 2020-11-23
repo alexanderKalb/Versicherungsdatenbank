@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using MySql.Data.MySqlClient;
+using NPoco;
+
 
 namespace Versicherungsdatenbank
 {
@@ -15,6 +19,11 @@ namespace Versicherungsdatenbank
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
